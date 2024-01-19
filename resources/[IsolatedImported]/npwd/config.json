@@ -1,0 +1,46 @@
+{
+ "PhoneAsItem": {
+    "enabled": true,
+    "exportResource": "qb-npwd",
+    "exportFunction": "HasPhone"
+  },
+ "general": {
+    "useResourceIntegration": true,
+    "toggleKey": "f1",
+    "toggleCommand": "phone"
+  },
+  "contacts": {
+    "frameworkPay": false,
+    "payResource": "my-core-resource",
+    "payFunction": "myCheckerFunction"
+  },
+  "profanityFilter": {
+    "enabled": false,
+    "badWords": ["esx"]
+  },
+"database": {
+    "useIdentifierPrefix": true,
+    "playerTable": "players",
+    "identifierColumn": "citizenid",
+    "identifierType": "license",
+    "profileQueries": true,
+    "phoneNumberColumn": "phone_number"
+  },
+  "debug": {
+    "level": "silly",
+    "enabled": true,
+    "sentryEnabled": true
+  },
+  "browser": {
+    "homepageUrl": "https://docs.fivemanage.com"
+  },
+  "defaultContacts": [],
+  "disabledApps": [],
+  "apps": [],
+  "voiceMessage": {
+    "enabled": false,
+    "authorizationHeader": "PE-Secret",
+    "url": "",
+    "returnedDataIndexes": ["url"]
+  }
+}
