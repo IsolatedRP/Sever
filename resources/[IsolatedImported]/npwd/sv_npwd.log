@@ -4998,3 +4998,37 @@
 {"level":"info","message":"Executed query (SELECT id FROM npwd_marketplace_listings WHERE identifier = ? [\"YEV45853\"]) in 15.469564ms'","module":"DBInterface","timestamp":"2024-01-19T18:57:59.760Z"}
 {"level":"info","message":"Executed query (DELETE FROM npwd_marketplace_listings WHERE identifier = ? AND reported = 0 [\"YEV45853\"]) in 1.613893ms'","module":"DBInterface","timestamp":"2024-01-19T18:57:59.763Z"}
 {"level":"info","message":"Unloaded NPWD Player, source: (1)","module":"player","timestamp":"2024-01-19T18:57:59.764Z"}
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2024-01-19T21:35:14.474Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2024-01-19T21:35:14.477Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2024-01-19T21:35:14.477Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2024-01-19T21:35:14.478Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2024-01-19T21:35:14.478Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2024-01-19T21:35:14.479Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2024-01-19T21:35:14.479Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2024-01-19T21:35:14.490Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2024-01-19T21:35:14.491Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2024-01-19T21:35:14.493Z"}
+{"level":"debug","message":"Beginning database schema validation","module":"boot","timestamp":"2024-01-19T21:35:16.872Z"}
+{"level":"info","message":"Successfully started","timestamp":"2024-01-19T21:35:16.885Z"}
+{"level":"info","message":"Executed query (SHOW TABLES WHERE `Tables_in_QBCoreFramework_916495`LIKE ? [\"players\"]) in 189.846195ms'","module":"DBInterface","timestamp":"2024-01-19T21:35:17.064Z"}
+{"level":"info","message":"Executed query (SHOW COLUMNS IN players []) in 86.16123ms'","module":"DBInterface","timestamp":"2024-01-19T21:35:17.150Z"}
+{"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2024-01-19T21:35:17.151Z"}
+{"level":"debug","message":"Checking for missing framework dependencies","module":"boot","timestamp":"2024-01-19T21:35:17.152Z"}
+{"level":"debug","message":"No missing dependencies were detected","module":"boot","timestamp":"2024-01-19T21:35:17.153Z"}
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2024-01-19T21:35:35.985Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2024-01-19T21:35:35.987Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2024-01-19T21:35:35.988Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2024-01-19T21:35:35.988Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2024-01-19T21:35:35.989Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2024-01-19T21:35:35.990Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2024-01-19T21:35:35.990Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2024-01-19T21:35:36.006Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2024-01-19T21:35:36.007Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2024-01-19T21:35:36.011Z"}
+{"level":"debug","message":"Beginning database schema validation","module":"boot","timestamp":"2024-01-19T21:35:37.799Z"}
+{"level":"info","message":"Successfully started","timestamp":"2024-01-19T21:35:37.811Z"}
+{"level":"info","message":"Executed query (SHOW TABLES WHERE `Tables_in_QBCoreFramework_916495`LIKE ? [\"players\"]) in 129.729057ms'","module":"DBInterface","timestamp":"2024-01-19T21:35:37.930Z"}
+{"level":"info","message":"Executed query (SHOW COLUMNS IN players []) in 138.582417ms'","module":"DBInterface","timestamp":"2024-01-19T21:35:38.071Z"}
+{"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2024-01-19T21:35:38.072Z"}
+{"level":"debug","message":"Checking for missing framework dependencies","module":"boot","timestamp":"2024-01-19T21:35:38.072Z"}
+{"level":"debug","message":"No missing dependencies were detected","module":"boot","timestamp":"2024-01-19T21:35:38.073Z"}
