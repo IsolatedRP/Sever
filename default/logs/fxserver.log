@@ -1,0 +1,922 @@
+
+================================================================
+======== FXServer Starting - 1/21/2024, 11:11:42 PM             
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 103 resources.
+[          svadhesive] Authenticating server license key...
+[38;5;66m[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v7.0.0 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for yarn
+[           resources] Started resource yarn
+[ citizen-server-impl] Running build tasks on resource webpack - it'll restart once completed.
+[38;5;163m[    c-resources-core] Could not start dependency webpack for resource chat.
+[ citizen-server-impl] Couldn't start resource chat.
+[38;5;83m[           resources] Started resource spawnmanager
+[38;5;154m[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[38;5;83m[           resources] Started resource hardcap
+[38;5;161m[    c-scripting-core] Creating script environments for baseevents
+[38;5;83m[           resources] Started resource baseevents
+[38;5;161m[    c-scripting-core] Creating script environments for oxmysql
+[38;5;83m[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for qb-core
+[           resources] Started resource qb-core
+[38;5;83m[           resources] Started resource menuv
+[    c-scripting-core] Creating script environments for qb-adminmenu
+[38;5;83m[           resources] Started resource qb-adminmenu
+[38;5;161m[    c-scripting-core] Creating script environments for qb-ambulancejob
+[           resources] Started resource qb-ambulancejob
+[38;5;83m[           resources] Started resource qb-interior
+[    c-scripting-core] Creating script environments for qb-clothing
+[           resources] Started resource qb-clothing
+[38;5;161m[    c-scripting-core] Creating script environments for qb-weathersync
+[           resources] Started resource qb-weathersync
+[    c-scripting-core] Creating script environments for qb-apartments
+[           resources] Started resource qb-apartments
+[38;5;161m[    c-scripting-core] Creating script environments for qb-banking
+[38;5;83m[           resources] [0mStarted resource qb-banking
+[38;5;161m[    c-scripting-core] Creating script environments for PolyZone
+[38;5;83m[           resources] Started resource PolyZone
+[    c-scripting-core] Creating script environments for qb-bankrobbery
+[38;5;83m[           resources] Started resource qb-bankrobbery
+[    c-scripting-core] Creating script environments for qb-busjob
+[           resources] Started resource qb-busjob
+[38;5;161m[    c-scripting-core] Creating script environments for qb-cityhall
+[38;5;83m[           resources] Started resource qb-cityhall
+[           resources] Started resource mhacking
+[    c-scripting-core] Creating script environments for qb-crypto
+[38;5;83m[           resources] Started resource qb-crypto
+[    c-scripting-core] Creating script environments for qb-diving
+[           resources] Started resource qb-diving
+[    c-scripting-core] Creating script environments for qb-doorlock
+[38;5;83m[           resources] Started resource qb-doorlock
+[    c-scripting-core] Creating script environments for qb-drugs
+[           resources] Started resource qb-drugs
+[    c-scripting-core] Creating script environments for qb-fitbit
+[           resources] Started resource qb-fitbit
+[    c-scripting-core] Creating script environments for qb-garages
+[38;5;83m[           resources] [0mStarted resource qb-garages
+[    c-scripting-core] Creating script environments for qb-garbagejob
+[38;5;83m[           resources] Started resource qb-garbagejob
+[38;5;161m[    c-scripting-core] Creating script environments for qb-hotdogjob
+[38;5;83m[           resources] Started resource qb-hotdogjob
+[           resources] Started resource qb-lockpick
+[           resources] Started resource qb-skillbar
+[38;5;161m[    c-scripting-core] Creating script environments for qb-houserobbery
+[38;5;83m[           resources] Started resource qb-houserobbery
+[38;5;161m[    c-scripting-core] Creating script environments for qb-houses
+[38;5;83m[           resources] Started resource qb-houses
+[    c-scripting-core] Creating script environments for qb-hud
+[38;5;83m[           resources] Started resource qb-hud
+[38;5;83m[           resources] Started resource qb-input
+[38;5;161m[    c-scripting-core] Creating script environments for qb-weapons
+[           resources] Started resource qb-weapons
+[    c-scripting-core] Creating script environments for qb-inventory
+[38;5;83m[           resources] Started resource qb-inventory
+[    c-scripting-core] Creating script environments for qb-jewelery
+[           resources] Started resource qb-jewelery
+[38;5;83m[           resources] Started resource qb-keyminigame
+[    c-scripting-core] Creating script environments for qb-lapraces
+[           resources] Started resource qb-lapraces
+[38;5;83m[           resources] Started resource qb-loading
+[    c-scripting-core] Creating script environments for qb-management
+[           resources] Started resource qb-management
+[38;5;161m[    c-scripting-core] Creating script environments for qb-mechanicjob
+[38;5;83m[           resources] Started resource qb-mechanicjob
+[38;5;83m[           resources] Started resource qb-menu
+[    c-scripting-core] Creating script environments for qb-spawn
+[38;5;83m[           resources] Started resource qb-spawn
+[    c-scripting-core] Creating script environments for qb-multicharacter
+[           resources] Started resource qb-multicharacter
+[38;5;161m[    c-scripting-core] Creating script environments for qb-newsjob
+[38;5;83m[           resources] Started resource qb-newsjob
+[    c-scripting-core] Creating script environments for qb-pawnshop
+[38;5;83m[           resources] Started resource qb-pawnshop
+[    c-scripting-core] Creating script environments for qb-phone
+[38;5;83m[           resources] Started resource qb-phone
+[    c-scripting-core] Creating script environments for qb-policejob
+[ citizen-server-impl] sync thread hitch warning: timer interval of 102 milliseconds
+[           resources] Started resource qb-policejob
+[    c-scripting-core] Creating script environments for qb-prison
+[38;5;83m[           resources] Started resource qb-prison
+[    c-scripting-core] [0mCreating script environments for qb-radialmenu
+[38;5;83m[           resources] Started resource qb-radialmenu
+[    c-scripting-core] Creating script environments for qb-recyclejob
+[38;5;83m[           resources] Started resource qb-recyclejob
+[    c-scripting-core] Creating script environments for qb-scoreboard
+[38;5;83m[           resources] Started resource qb-scoreboard
+[38;5;161m[    c-scripting-core] Creating script environments for qb-scrapyard
+[           resources] Started resource qb-scrapyard
+[38;5;161m[    c-scripting-core] Creating script environments for qb-shops
+[           resources] Started resource qb-shops
+[    c-scripting-core] Creating script environments for qb-smallresources
+[38;5;83m[           resources] Started resource qb-smallresources
+[38;5;161m[    c-scripting-core] Creating script environments for qb-storerobbery
+[38;5;83m[           resources] Started resource qb-storerobbery
+[38;5;161m[    c-scripting-core] Creating script environments for qb-streetraces
+[           resources] Started resource qb-streetraces
+[           resources] Started resource qb-target
+[    c-scripting-core] Creating script environments for qb-taxijob
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 125 milliseconds
+[38;5;83m[           resources] Started resource qb-taxijob
+[38;5;161m[    c-scripting-core] Creating script environments for qb-towjob
+[38;5;83m[           resources] Started resource qb-towjob
+[    c-scripting-core] Creating script environments for qb-traphouse
+[38;5;83m[           resources] Started resource qb-traphouse
+[    c-scripting-core] Creating script environments for qb-truckerjob
+[           resources] Started resource qb-truckerjob
+[38;5;161m[    c-scripting-core] Creating script environments for qb-truckrobbery
+[38;5;83m[           resources] Started resource qb-truckrobbery
+[    c-scripting-core] Creating script environments for qb-vehiclekeys
+[38;5;83m[           resources] Started resource qb-vehiclekeys
+[    c-scripting-core] Creating script environments for qb-vehiclesales
+[38;5;83m[           resources] Started resource qb-vehiclesales
+[    c-scripting-core] Creating script environments for qb-vehicleshop
+[38;5;83m[           resources] Started resource qb-vehicleshop
+[    c-scripting-core] Creating script environments for qb-vineyard
+[38;5;83m[           resources] Started resource qb-vineyard
+[    c-scripting-core] Creating script environments for qb-weed
+[38;5;83m[           resources] Started resource qb-weed
+[    c-scripting-core] Creating script environments for LegacyFuel
+[38;5;83m[           resources] Started resource LegacyFuel
+[38;5;83m[           resources] Started resource bob74_ipl
+[    c-scripting-core] Creating script environments for connectqueue
+[ script:connectqueue] QUEUE:  [connectqueue] Disabling hardcap 
+[           resources] Stopping resource hardcap
+[           resources] Started resource connectqueue
+[    c-scripting-core] Creating script environments for interact-sound
+[           resources] Started resource interact-sound
+[           resources] Started resource progressbar
+[           resources] Started resource safecracker
+[ citizen-server-impl] Running build tasks on resource webpack - it'll restart once completed.
+[38;5;163m[    c-resources-core] Could not start dependency webpack for resource screenshot-basic.
+[ citizen-server-impl] Couldn't start resource screenshot-basic.
+[    c-scripting-core] Creating script environments for pma-voice
+[38;5;83m[           resources] Started resource pma-voice
+[38;5;161m[    c-scripting-core] Creating script environments for qb-radio
+[           resources] Started resource qb-radio
+[38;5;83m[           resources] Started resource dealer_map
+[           resources] Started resource hospital_map
+[           resources] Started resource prison_canteen
+[resources:prison_mai] Asset prison_main/desertos_prison.ytd uses 30.5 MiB of physical memory.
+[           resources] Started resource prison_main (1 warning)
+[38;5;83m[           resources] Started resource prison_meeting
+[         script:yarn] [yarn]	yarn install v1.22.5
+[         script:yarn] [1/4] Resolving packages...
+[         script:yarn] [2/4] Fetching packages...
+[38;5;154m[   script:mapmanager] Started map fivem-map-hipster
+[           resources] Started resource fivem-map-hipster
+[ citizen-server-impl] server thread hitch warning: timer interval of 430 milliseconds
+[38;5;151m[         script:yarn] [yarn]	yarn install v1.22.5
+[      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
+[38;5;151m[         script:yarn] Error: [yarn]	warning Waiting for the other yarn instance to finish (pid undefined, inside undefined)
+[38;5;73m[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://isolatedrp1-7omxje.users.cfx.re/
+[         script:yarn] [yarn]	info fsevents@2.3.1: The platform "win32" is incompatible with this module.
+[         script:yarn] [yarn]	info "fsevents@2.3.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+[         script:yarn] [yarn]	info fsevents@1.2.13: The platform "win32" is incompatible with this module.
+[         script:yarn] [yarn]	info "fsevents@1.2.13" is an optional dependency and failed compatibility check. Excluding it from installation.
+[         script:yarn] [yarn]	[3/4] Linking dependencies...
+[38;5;151m[         script:yarn] [yarn]	[4/4] Building fresh packages...
+[         script:yarn] Error: [yarn]	warning Ignored scripts due to flag.
+[         script:yarn] [yarn]	Done in 30.47s.
+[ citizen-server-impl] Build tasks completed - starting resource webpack.
+[    c-scripting-core] Creating script environments for webpack
+[38;5;73m[ citizen-server-impl] Running build tasks on resource chat - it'll restart once completed.
+[38;5;73m[ citizen-server-impl] Running build tasks on resource screenshot-basic - it'll restart once completed.
+[         script:yarn] yarn is currently busy: we are waiting to compile screenshot-basic
+[           resources] Started resource webpack
+[ citizen-server-impl] server thread hitch warning: timer interval of 309 milliseconds
+[         script:yarn] [yarn]	[1/4] Resolving packages...
+[         script:yarn] success Already up-to-date.
+[         script:yarn] Done in 23.81s.
+[ citizen-server-impl] Build tasks completed - starting resource webpack.
+[         script:yarn] [yarn]	yarn install v1.22.5
+[         script:yarn] [yarn]	[1/4] Resolving packages...
+[         script:yarn] [yarn]	[2/4] Fetching packages...
+[38;5;151m[         script:yarn] [yarn]	yarn install v1.22.5
+[38;5;151m[         script:yarn] Error: [yarn]	warning Waiting for the other yarn instance to finish (pid undefined, inside undefined)
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 363 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 401 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 137 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 205 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 178 milliseconds
+[38;5;151m[         script:yarn] [yarn]	info fsevents@1.2.11: The platform "win32" is incompatible with this module.
+[         script:yarn] info "fsevents@1.2.11" is an optional dependency and failed compatibility check. Excluding it from installation.
+[         script:yarn] [yarn]	[3/4] Linking dependencies...
+> txaEvent "adminsUpdated" "[]"
+[38;5;151m[         script:yarn] [yarn]	[4/4] Building fresh packages...
+[         script:yarn] Error: [yarn]	warning Ignored scripts due to flag.
+[         script:yarn] [yarn]	Done in 59.19s.
+[ citizen-server-impl] sync thread hitch warning: timer interval of 109 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 108 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 113 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 108 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 109 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 170 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 112 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 131 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 112 milliseconds
+[38;5;21m[      script:webpack] chat: started building webpack.config.js
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 24798 milliseconds
+[         script:yarn] [yarn]	[1/4] Resolving packages...
+[         script:yarn] [2/4] Fetching packages...
+[ citizen-server-impl] sync thread hitch warning: timer interval of 168 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 203 milliseconds
+[         script:yarn] [yarn]	info fsevents@2.3.1: The platform "win32" is incompatible with this module.
+[         script:yarn] [yarn]	info "fsevents@2.3.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+[         script:yarn] [yarn]	info fsevents@1.2.13: The platform "win32" is incompatible with this module.
+[         script:yarn] info "fsevents@1.2.13" is an optional dependency and failed compatibility check. Excluding it from installation.
+[         script:yarn] [yarn]	[3/4] Linking dependencies...
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 129 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 158 milliseconds
+> txaEvent "adminsUpdated" "[]"
+[38;5;151m[         script:yarn] [0m[yarn]	[4/4] Building fresh packages...
+[         script:yarn] Error: [yarn]	warning Ignored scripts due to flag.
+[38;5;151m[         script:yarn] [yarn]	Done in 104.18s.
+[38;5;21m[      script:webpack] webpack is busy: we are waiting to compile screenshot-basic (client.config.js)
+[38;5;21m[      script:webpack] webpack is busy: we are waiting to compile screenshot-basic (client.config.js)
+> txaEvent "adminsUpdated" "[]"
+> txaEvent "adminsUpdated" "[]"
+[38;5;21m[      script:webpack] webpack is busy: we are waiting to compile screenshot-basic (client.config.js)
+[38;5;21m[      script:webpack] webpack is busy: we are waiting to compile screenshot-basic (client.config.js)
+[38;5;21m[      script:webpack] chat: built webpack.config.js
+[ citizen-server-impl] Build tasks completed - starting resource chat.
+[38;5;73m[ citizen-server-impl] Running build tasks on resource chat - it'll restart once completed.
+[      script:webpack] chat: started building webpack.config.js
+[      script:webpack] webpack is busy: we are waiting to compile screenshot-basic (client.config.js)
+[      script:webpack] webpack is busy: we are waiting to compile screenshot-basic (client.config.js)
+[38;5;21m[      script:webpack] chat: built webpack.config.js
+[ citizen-server-impl] Build tasks completed - starting resource chat.
+[38;5;161m[    c-scripting-core] [0mCreating script environments for chat
+[           resources] Started resource chat
+[      script:webpack] screenshot-basic: started building client.config.js
+[      script:webpack] webpack is busy: we are waiting to compile screenshot-basic (server.config.js)
+[ citizen-server-impl] server thread hitch warning: timer interval of 7366 milliseconds
+[      script:webpack] webpack is busy: we are waiting to compile screenshot-basic (server.config.js)
+[      script:webpack] screenshot-basic: built client.config.js
+[      script:webpack] screenshot-basic: started building server.config.js
+[38;5;21m[      script:webpack] webpack is busy: we are waiting to compile screenshot-basic (ui.config.js)
+[ citizen-server-impl] server thread hitch warning: timer interval of 5806 milliseconds
+[      script:webpack] webpack is busy: we are waiting to compile screenshot-basic (ui.config.js)
+[      script:webpack] screenshot-basic: built server.config.js
+[      script:webpack] screenshot-basic: started building ui.config.js
+[      script:webpack] screenshot-basic: built ui.config.js
+[ citizen-server-impl] Build tasks completed - starting resource screenshot-basic.
+[38;5;161m[    c-scripting-core] Creating script environments for screenshot-basic
+[           resources] Started resource screenshot-basic
+[ citizen-server-impl] server thread hitch warning: timer interval of 290 milliseconds
+> txaEvent "adminsUpdated" "[]"
+> txaEvent "adminsUpdated" "[]"
+> txaEvent "adminsUpdated" "[]"
+> setr "txAdmin-locale" "en"
+> set "txAdmin-localeFile" "C:\txData\locale.json"
+> setr "txAdmin-verbose" "false"
+> set "txAdmin-checkPlayerJoin" "true"
+> set "txAdmin-menuAlignRight" "false"
+> set "txAdmin-menuPageKey" "Tab"
+> set "txAdmin-hideDefaultAnnouncement" "false"
+> set "txAdmin-hideDefaultDirectMessage" "false"
+> set "txAdmin-hideDefaultWarning" "false"
+> set "txAdmin-hideDefaultScheduledRestartWarning" "false"
+> txaEvent "configChanged" "{}"
+> setr "txAdmin-locale" "en"
+> set "txAdmin-localeFile" "C:\txData\locale.json"
+> setr "txAdmin-verbose" "false"
+> set "txAdmin-checkPlayerJoin" "true"
+> set "txAdmin-menuAlignRight" "true"
+> set "txAdmin-menuPageKey" "Tab"
+> set "txAdmin-hideDefaultAnnouncement" "false"
+> set "txAdmin-hideDefaultDirectMessage" "false"
+> set "txAdmin-hideDefaultWarning" "false"
+> set "txAdmin-hideDefaultScheduledRestartWarning" "false"
+> txaEvent "configChanged" "{}"
+[    script:qb-crypto] Crypto not found, inserting new record for qbit
+> txaEvent "serverShuttingDown" "{＂delay＂:5000,＂author＂:＂Jord＂,＂message＂:＂Server restarting (requested by Jord).＂}"
+[      script:monitor] [txAdmin] Server shutdown imminent. Kicking all players.
+
+================================================================
+======== FXServer Starting - 1/21/2024, 11:23:07 PM             
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 103 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v7.0.0 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[                 cmd] No such command IsolatedRP.
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for yarn
+[           resources] Started resource yarn
+[    c-scripting-core] Creating script environments for webpack
+[           resources] Started resource webpack
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for baseevents
+[           resources] Started resource baseevents
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for qb-core
+[           resources] Started resource qb-core
+[           resources] Started resource menuv
+[    c-scripting-core] Creating script environments for qb-adminmenu
+[           resources] Started resource qb-adminmenu
+[38;5;161m[    c-scripting-core] Creating script environments for qb-ambulancejob
+[           resources] Started resource qb-ambulancejob
+[           resources] Started resource qb-interior
+[    c-scripting-core] Creating script environments for qb-clothing
+[           resources] Started resource qb-clothing
+[    c-scripting-core] Creating script environments for qb-weathersync
+[           resources] Started resource qb-weathersync
+[    c-scripting-core] Creating script environments for qb-apartments
+[           resources] Started resource qb-apartments
+[    c-scripting-core] Creating script environments for qb-banking
+[           resources] Started resource qb-banking
+[    c-scripting-core] Creating script environments for PolyZone
+[38;5;83m[           resources] Started resource PolyZone
+[    c-scripting-core] Creating script environments for qb-bankrobbery
+[           resources] Started resource qb-bankrobbery
+[    c-scripting-core] Creating script environments for qb-busjob
+[           resources] Started resource qb-busjob
+[    c-scripting-core] Creating script environments for qb-cityhall
+[           resources] Started resource qb-cityhall
+[           resources] Started resource mhacking
+[    c-scripting-core] Creating script environments for qb-crypto
+[           resources] Started resource qb-crypto
+[    c-scripting-core] Creating script environments for qb-diving
+[           resources] Started resource qb-diving
+[    c-scripting-core] Creating script environments for qb-doorlock
+[           resources] Started resource qb-doorlock
+[    c-scripting-core] Creating script environments for qb-drugs
+[           resources] Started resource qb-drugs
+[    c-scripting-core] Creating script environments for qb-fitbit
+[           resources] Started resource qb-fitbit
+[    c-scripting-core] Creating script environments for qb-garages
+[           resources] Started resource qb-garages
+[    c-scripting-core] Creating script environments for qb-garbagejob
+[           resources] Started resource qb-garbagejob
+[    c-scripting-core] Creating script environments for qb-hotdogjob
+[           resources] Started resource qb-hotdogjob
+[           resources] Started resource qb-lockpick
+[           resources] Started resource qb-skillbar
+[    c-scripting-core] Creating script environments for qb-houserobbery
+[           resources] Started resource qb-houserobbery
+[    c-scripting-core] Creating script environments for qb-houses
+[           resources] Started resource qb-houses
+[    c-scripting-core] Creating script environments for qb-hud
+[           resources] Started resource qb-hud
+[           resources] Started resource qb-input
+[    c-scripting-core] Creating script environments for qb-weapons
+[           resources] Started resource qb-weapons
+[    c-scripting-core] Creating script environments for qb-inventory
+[           resources] Started resource qb-inventory
+[    c-scripting-core] Creating script environments for qb-jewelery
+[           resources] Started resource qb-jewelery
+[           resources] Started resource qb-keyminigame
+[    c-scripting-core] Creating script environments for qb-lapraces
+[           resources] Started resource qb-lapraces
+[           resources] Started resource qb-loading
+[    c-scripting-core] Creating script environments for qb-management
+[           resources] Started resource qb-management
+[    c-scripting-core] Creating script environments for qb-mechanicjob
+[           resources] Started resource qb-mechanicjob
+[           resources] Started resource qb-menu
+[    c-scripting-core] Creating script environments for qb-spawn
+[           resources] Started resource qb-spawn
+[    c-scripting-core] Creating script environments for qb-multicharacter
+[           resources] Started resource qb-multicharacter
+[    c-scripting-core] Creating script environments for qb-newsjob
+[           resources] Started resource qb-newsjob
+[    c-scripting-core] Creating script environments for qb-pawnshop
+[           resources] Started resource qb-pawnshop
+[    c-scripting-core] Creating script environments for qb-phone
+[           resources] Started resource qb-phone
+[    c-scripting-core] Creating script environments for qb-policejob
+[           resources] Started resource qb-policejob
+[    c-scripting-core] Creating script environments for qb-prison
+[           resources] Started resource qb-prison
+[    c-scripting-core] Creating script environments for qb-radialmenu
+[           resources] Started resource qb-radialmenu
+[    c-scripting-core] Creating script environments for qb-recyclejob
+[           resources] Started resource qb-recyclejob
+[    c-scripting-core] Creating script environments for qb-scoreboard
+[           resources] Started resource qb-scoreboard
+[    c-scripting-core] Creating script environments for qb-scrapyard
+[           resources] Started resource qb-scrapyard
+[    c-scripting-core] Creating script environments for qb-shops
+[           resources] Started resource qb-shops
+[    c-scripting-core] Creating script environments for qb-smallresources
+[           resources] Started resource qb-smallresources
+[    c-scripting-core] Creating script environments for qb-storerobbery
+[           resources] Started resource qb-storerobbery
+[    c-scripting-core] Creating script environments for qb-streetraces
+[           resources] Started resource qb-streetraces
+[           resources] Started resource qb-target
+[    c-scripting-core] Creating script environments for qb-taxijob
+[           resources] Started resource qb-taxijob
+[    c-scripting-core] Creating script environments for qb-towjob
+[           resources] Started resource qb-towjob
+[    c-scripting-core] Creating script environments for qb-traphouse
+[           resources] Started resource qb-traphouse
+[    c-scripting-core] Creating script environments for qb-truckerjob
+[           resources] Started resource qb-truckerjob
+[    c-scripting-core] Creating script environments for qb-truckrobbery
+[           resources] Started resource qb-truckrobbery
+[    c-scripting-core] Creating script environments for qb-vehiclekeys
+[           resources] Started resource qb-vehiclekeys
+[    c-scripting-core] Creating script environments for qb-vehiclesales
+[           resources] Started resource qb-vehiclesales
+[    c-scripting-core] Creating script environments for qb-vehicleshop
+[           resources] Started resource qb-vehicleshop
+[    c-scripting-core] Creating script environments for qb-vineyard
+[           resources] Started resource qb-vineyard
+[    c-scripting-core] Creating script environments for qb-weed
+[           resources] Started resource qb-weed
+[    c-scripting-core] Creating script environments for LegacyFuel
+[           resources] Started resource LegacyFuel
+[           resources] Started resource bob74_ipl
+[    c-scripting-core] Creating script environments for connectqueue
+[ script:connectqueue] QUEUE:  [connectqueue] Disabling hardcap 
+[           resources] Stopping resource hardcap
+[           resources] Started resource connectqueue
+[    c-scripting-core] Creating script environments for interact-sound
+[           resources] Started resource interact-sound
+[           resources] Started resource progressbar
+[           resources] Started resource safecracker
+[    c-scripting-core] Creating script environments for screenshot-basic
+[           resources] Started resource screenshot-basic
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[    c-scripting-core] Creating script environments for qb-radio
+[           resources] Started resource qb-radio
+[           resources] Started resource dealer_map
+[           resources] Started resource hospital_map
+[           resources] Started resource prison_canteen
+[resources:prison_mai] Asset prison_main/desertos_prison.ytd uses 30.5 MiB of physical memory.
+[           resources] Started resource prison_main (1 warning)
+[           resources] Started resource prison_meeting
+[   script:mapmanager] Started map fivem-map-skater
+[38;5;83m[           resources] Started resource fivem-map-skater
+[38;5;42m[      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://isolatedrp1-7omxje.users.cfx.re/
+[ citizen-server-impl] sync thread hitch warning: timer interval of 107 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 177 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 172 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 153 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 193 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 184 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 128 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 147 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 177 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 130 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 156 milliseconds
+> txaEvent "serverShuttingDown" "{＂delay＂:5000,＂author＂:＂isolatedrp1＂,＂message＂:＂Server restarting (requested by isolatedrp1).＂}"
+[      script:monitor] [txAdmin] Server shutdown imminent. Kicking all players.
+
+================================================================
+======== FXServer Starting - 1/21/2024, 11:26:05 PM             
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 103 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v7.0.0 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[                 cmd] No such command IsolatedRP.
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for yarn
+[           resources] Started resource yarn
+[    c-scripting-core] Creating script environments for webpack
+[           resources] Started resource webpack
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[38;5;154m[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[38;5;161m[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for baseevents
+[           resources] Started resource baseevents
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for qb-core
+[           resources] Started resource qb-core
+[           resources] Started resource menuv
+[    c-scripting-core] Creating script environments for qb-adminmenu
+[           resources] Started resource qb-adminmenu
+[    c-scripting-core] Creating script environments for qb-ambulancejob
+[           resources] Started resource qb-ambulancejob
+[           resources] Started resource qb-interior
+[    c-scripting-core] Creating script environments for qb-clothing
+[           resources] Started resource qb-clothing
+[    c-scripting-core] Creating script environments for qb-weathersync
+[           resources] Started resource qb-weathersync
+[    c-scripting-core] Creating script environments for qb-apartments
+[           resources] Started resource qb-apartments
+[    c-scripting-core] Creating script environments for qb-banking
+[           resources] Started resource qb-banking
+[    c-scripting-core] Creating script environments for PolyZone
+[           resources] Started resource PolyZone
+[    c-scripting-core] Creating script environments for qb-bankrobbery
+[           resources] Started resource qb-bankrobbery
+[    c-scripting-core] Creating script environments for qb-busjob
+[           resources] [97mStarted resource qb-busjob
+[    c-scripting-core] Creating script environments for qb-cityhall
+[           resources] Started resource qb-cityhall
+[           resources] Started resource mhacking
+[    c-scripting-core] Creating script environments for qb-crypto
+[           resources] Started resource qb-crypto
+[    c-scripting-core] Creating script environments for qb-diving
+[           resources] Started resource qb-diving
+[    c-scripting-core] Creating script environments for qb-doorlock
+[           resources] Started resource qb-doorlock
+[    c-scripting-core] Creating script environments for qb-drugs
+[           resources] Started resource qb-drugs
+[    c-scripting-core] Creating script environments for qb-fitbit
+[           resources] Started resource qb-fitbit
+[    c-scripting-core] Creating script environments for qb-garages
+[           resources] Started resource qb-garages
+[    c-scripting-core] Creating script environments for qb-garbagejob
+[           resources] Started resource qb-garbagejob
+[    c-scripting-core] Creating script environments for qb-hotdogjob
+[           resources] [97mStarted resource qb-hotdogjob
+[           resources] Started resource qb-lockpick
+[           resources] Started resource qb-skillbar
+[    c-scripting-core] Creating script environments for qb-houserobbery
+[           resources] Started resource qb-houserobbery
+[    c-scripting-core] Creating script environments for qb-houses
+[           resources] Started resource qb-houses
+[    c-scripting-core] Creating script environments for qb-hud
+[           resources] Started resource qb-hud
+[           resources] Started resource qb-input
+[    c-scripting-core] Creating script environments for qb-weapons
+[           resources] Started resource qb-weapons
+[    c-scripting-core] Creating script environments for qb-inventory
+[           resources] Started resource qb-inventory
+[    c-scripting-core] Creating script environments for qb-jewelery
+[           resources] [97mStarted resource qb-jewelery
+[           resources] Started resource qb-keyminigame
+[    c-scripting-core] Creating script environments for qb-lapraces
+[           resources] Started resource qb-lapraces
+[           resources] Started resource qb-loading
+[    c-scripting-core] Creating script environments for qb-management
+[           resources] Started resource qb-management
+[    c-scripting-core] Creating script environments for qb-mechanicjob
+[           resources] Started resource qb-mechanicjob
+[           resources] Started resource qb-menu
+[    c-scripting-core] Creating script environments for qb-spawn
+[           resources] Started resource qb-spawn
+[    c-scripting-core] Creating script environments for qb-multicharacter
+[           resources] Started resource qb-multicharacter
+[    c-scripting-core] Creating script environments for qb-newsjob
+[           resources] Started resource qb-newsjob
+[    c-scripting-core] Creating script environments for qb-pawnshop
+[           resources] Started resource qb-pawnshop
+[    c-scripting-core] Creating script environments for qb-phone
+[           resources] Started resource qb-phone
+[    c-scripting-core] Creating script environments for qb-policejob
+[           resources] Started resource qb-policejob
+[    c-scripting-core] Creating script environments for qb-prison
+[           resources] Started resource qb-prison
+[    c-scripting-core] Creating script environments for qb-radialmenu
+[           resources] Started resource qb-radialmenu
+[    c-scripting-core] Creating script environments for qb-recyclejob
+[           resources] [97mStarted resource qb-recyclejob
+[    c-scripting-core] Creating script environments for qb-scoreboard
+[           resources] Started resource qb-scoreboard
+[    c-scripting-core] Creating script environments for qb-scrapyard
+[           resources] Started resource qb-scrapyard
+[    c-scripting-core] Creating script environments for qb-shops
+[           resources] Started resource qb-shops
+[    c-scripting-core] Creating script environments for qb-smallresources
+[           resources] Started resource qb-smallresources
+[    c-scripting-core] Creating script environments for qb-storerobbery
+[           resources] Started resource qb-storerobbery
+[    c-scripting-core] Creating script environments for qb-streetraces
+[           resources] Started resource qb-streetraces
+[           resources] Started resource qb-target
+[    c-scripting-core] Creating script environments for qb-taxijob
+[           resources] Started resource qb-taxijob
+[    c-scripting-core] Creating script environments for qb-towjob
+[           resources] Started resource qb-towjob
+[    c-scripting-core] Creating script environments for qb-traphouse
+[           resources] Started resource qb-traphouse
+[    c-scripting-core] Creating script environments for qb-truckerjob
+[           resources] Started resource qb-truckerjob
+[    c-scripting-core] Creating script environments for qb-truckrobbery
+[           resources] Started resource qb-truckrobbery
+[    c-scripting-core] Creating script environments for qb-vehiclekeys
+[           resources] Started resource qb-vehiclekeys
+[    c-scripting-core] Creating script environments for qb-vehiclesales
+[           resources] Started resource qb-vehiclesales
+[    c-scripting-core] Creating script environments for qb-vehicleshop
+[           resources] Started resource qb-vehicleshop
+[    c-scripting-core] Creating script environments for qb-vineyard
+[           resources] Started resource qb-vineyard
+[    c-scripting-core] Creating script environments for qb-weed
+[           resources] Started resource qb-weed
+[    c-scripting-core] Creating script environments for LegacyFuel
+[           resources] Started resource LegacyFuel
+[           resources] Started resource bob74_ipl
+[    c-scripting-core] Creating script environments for connectqueue
+[ script:connectqueue] QUEUE:  [connectqueue] Disabling hardcap 
+[           resources] Stopping resource hardcap
+[           resources] Started resource connectqueue
+[    c-scripting-core] Creating script environments for interact-sound
+[           resources] Started resource interact-sound
+[           resources] Started resource progressbar
+[           resources] Started resource safecracker
+[    c-scripting-core] Creating script environments for screenshot-basic
+[           resources] Started resource screenshot-basic
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[    c-scripting-core] Creating script environments for qb-radio
+[           resources] Started resource qb-radio
+[           resources] Started resource dealer_map
+[           resources] Started resource hospital_map
+[           resources] Started resource prison_canteen
+[resources:prison_mai] Asset prison_main/desertos_prison.ytd uses 30.5 MiB of physical memory.
+[           resources] Started resource prison_main (1 warning)
+[           resources] Started resource prison_meeting
+[   script:mapmanager] Started map fivem-map-skater
+[38;5;83m[           resources] Started resource fivem-map-skater
+[      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://isolatedrp1-7omxje.users.cfx.re/
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> refresh
+[           resources] Scanning resources.
+> txaReportResources
+[           resources] Found 1 new resources, and refreshed 0/103 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> ensure "scully_emotemenu"
+> txaReportResources
+[    c-resources-core] Could not find dependency ox_lib for resource scully_emotemenu.
+[ citizen-server-impl] Couldn't start resource scully_emotemenu.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> ensure "scully_emotemenu"
+> txaReportResources
+[    c-resources-core] Could not find dependency ox_lib for resource scully_emotemenu.
+[ citizen-server-impl] Couldn't start resource scully_emotemenu.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> refresh
+> txaReportResources
+[           resources] Scanning resources.
+[           resources] Found 1 new resources, and refreshed 0/104 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> ensure "ox_lib"
+> txaReportResources
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[ citizen-server-impl] server thread hitch warning: timer interval of 1105 milliseconds
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[       script:ox_lib] An update is available for ox_lib (current version: 3.15.1)
+[       script:ox_lib] https://github.com/overextended/ox_lib/releases/tag/v3.16.2
+> txaEvent "serverShuttingDown" "{＂delay＂:5000,＂author＂:＂isolatedrp1＂,＂message＂:＂Server restarting (requested by isolatedrp1).＂}"
+[      script:monitor] [txAdmin] Server shutdown imminent. Kicking all players.
+
+================================================================
+======== FXServer Starting - 1/21/2024, 11:31:21 PM             
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 105 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v7.0.0 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[                 cmd] No such command IsolatedRP.
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for yarn
+[           resources] Started resource yarn
+[    c-scripting-core] Creating script environments for webpack
+[           resources] Started resource webpack
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for baseevents
+[           resources] Started resource baseevents
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for scully_emotemenu
+[script:scully_emotem] [scully_emotemenu] Prop dump created.
+[           resources] Started resource scully_emotemenu
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for qb-core
+[           resources] Started resource qb-core
+[           resources] Started resource menuv
+[    c-scripting-core] Creating script environments for qb-adminmenu
+[           resources] Started resource qb-adminmenu
+[    c-scripting-core] Creating script environments for qb-ambulancejob
+[           resources] Started resource qb-ambulancejob
+[           resources] Started resource qb-interior
+[    c-scripting-core] Creating script environments for qb-clothing
+[           resources] Started resource qb-clothing
+[    c-scripting-core] Creating script environments for qb-weathersync
+[           resources] Started resource qb-weathersync
+[    c-scripting-core] Creating script environments for qb-apartments
+[           resources] Started resource qb-apartments
+[    c-scripting-core] Creating script environments for qb-banking
+[           resources] Started resource qb-banking
+[    c-scripting-core] Creating script environments for PolyZone
+[           resources] Started resource PolyZone
+[    c-scripting-core] Creating script environments for qb-bankrobbery
+[           resources] Started resource qb-bankrobbery
+[    c-scripting-core] Creating script environments for qb-busjob
+[           resources] Started resource qb-busjob
+[    c-scripting-core] Creating script environments for qb-cityhall
+[           resources] Started resource qb-cityhall
+[           resources] Started resource mhacking
+[    c-scripting-core] Creating script environments for qb-crypto
+[           resources] Started resource qb-crypto
+[    c-scripting-core] Creating script environments for qb-diving
+[           resources] Started resource qb-diving
+[    c-scripting-core] Creating script environments for qb-doorlock
+[           resources] Started resource qb-doorlock
+[    c-scripting-core] Creating script environments for qb-drugs
+[           resources] Started resource qb-drugs
+[    c-scripting-core] Creating script environments for qb-fitbit
+[           resources] Started resource qb-fitbit
+[    c-scripting-core] Creating script environments for qb-garages
+[           resources] Started resource qb-garages
+[    c-scripting-core] Creating script environments for qb-garbagejob
+[           resources] Started resource qb-garbagejob
+[    c-scripting-core] Creating script environments for qb-hotdogjob
+[           resources] Started resource qb-hotdogjob
+[           resources] Started resource qb-lockpick
+[           resources] Started resource qb-skillbar
+[    c-scripting-core] Creating script environments for qb-houserobbery
+[           resources] Started resource qb-houserobbery
+[    c-scripting-core] Creating script environments for qb-houses
+[           resources] Started resource qb-houses
+[    c-scripting-core] Creating script environments for qb-hud
+[           resources] Started resource qb-hud
+[           resources] Started resource qb-input
+[    c-scripting-core] Creating script environments for qb-weapons
+[           resources] Started resource qb-weapons
+[    c-scripting-core] Creating script environments for qb-inventory
+[           resources] Started resource qb-inventory
+[    c-scripting-core] Creating script environments for qb-jewelery
+[           resources] Started resource qb-jewelery
+[           resources] Started resource qb-keyminigame
+[    c-scripting-core] Creating script environments for qb-lapraces
+[           resources] Started resource qb-lapraces
+[           resources] Started resource qb-loading
+[    c-scripting-core] Creating script environments for qb-management
+[           resources] Started resource qb-management
+[    c-scripting-core] Creating script environments for qb-mechanicjob
+[           resources] Started resource qb-mechanicjob
+[           resources] Started resource qb-menu
+[    c-scripting-core] Creating script environments for qb-spawn
+[           resources] Started resource qb-spawn
+[    c-scripting-core] Creating script environments for qb-multicharacter
+[           resources] Started resource qb-multicharacter
+[    c-scripting-core] Creating script environments for qb-newsjob
+[           resources] Started resource qb-newsjob
+[    c-scripting-core] Creating script environments for qb-pawnshop
+[           resources] Started resource qb-pawnshop
+[    c-scripting-core] Creating script environments for qb-phone
+[           resources] Started resource qb-phone
+[    c-scripting-core] Creating script environments for qb-policejob
+[           resources] Started resource qb-policejob
+[    c-scripting-core] Creating script environments for qb-prison
+[           resources] Started resource qb-prison
+[    c-scripting-core] Creating script environments for qb-radialmenu
+[           resources] Started resource qb-radialmenu
+[    c-scripting-core] Creating script environments for qb-recyclejob
+[           resources] Started resource qb-recyclejob
+[    c-scripting-core] Creating script environments for qb-scoreboard
+[           resources] Started resource qb-scoreboard
+[    c-scripting-core] Creating script environments for qb-scrapyard
+[           resources] Started resource qb-scrapyard
+[    c-scripting-core] Creating script environments for qb-shops
+[           resources] Started resource qb-shops
+[    c-scripting-core] Creating script environments for qb-smallresources
+[           resources] Started resource qb-smallresources
+[    c-scripting-core] Creating script environments for qb-storerobbery
+[           resources] Started resource qb-storerobbery
+[    c-scripting-core] Creating script environments for qb-streetraces
+[           resources] Started resource qb-streetraces
+[           resources] Started resource qb-target
+[    c-scripting-core] Creating script environments for qb-taxijob
+[           resources] Started resource qb-taxijob
+[    c-scripting-core] Creating script environments for qb-towjob
+[           resources] Started resource qb-towjob
+[    c-scripting-core] Creating script environments for qb-traphouse
+[           resources] Started resource qb-traphouse
+[    c-scripting-core] Creating script environments for qb-truckerjob
+[           resources] Started resource qb-truckerjob
+[38;5;161m[    c-scripting-core] Creating script environments for qb-truckrobbery
+[           resources] Started resource qb-truckrobbery
+[    c-scripting-core] Creating script environments for qb-vehiclekeys
+[           resources] Started resource qb-vehiclekeys
+[    c-scripting-core] Creating script environments for qb-vehiclesales
+[           resources] Started resource qb-vehiclesales
+[    c-scripting-core] Creating script environments for qb-vehicleshop
+[           resources] Started resource qb-vehicleshop
+[    c-scripting-core] Creating script environments for qb-vineyard
+[           resources] Started resource qb-vineyard
+[38;5;161m[    c-scripting-core] Creating script environments for qb-weed
+[           resources] Started resource qb-weed
+[    c-scripting-core] Creating script environments for LegacyFuel
+[           resources] Started resource LegacyFuel
+[           resources] Started resource bob74_ipl
+[    c-scripting-core] Creating script environments for connectqueue
+[ script:connectqueue] QUEUE: [91m [connectqueue] Disabling hardcap 
+[           resources] Stopping resource hardcap
+[           resources] Started resource connectqueue
+[    c-scripting-core] Creating script environments for interact-sound
+[           resources] Started resource interact-sound
+[           resources] Started resource progressbar
+[           resources] Started resource safecracker
+[    c-scripting-core] Creating script environments for screenshot-basic
+[           resources] Started resource screenshot-basic
+[    c-scripting-core] Creating script environments for pma-voice
+[38;5;83m[           resources] Started resource pma-voice
+[    c-scripting-core] Creating script environments for qb-radio
+[           resources] Started resource qb-radio
+[           resources] Started resource dealer_map
+[           resources] Started resource hospital_map
+[           resources] Started resource prison_canteen
+[resources:prison_mai] Asset prison_main/desertos_prison.ytd uses 30.5 MiB of physical memory.
+[           resources] Started resource prison_main (1 warning)
+[           resources] Started resource prison_meeting
+[script:scully_emotem] [scully_emotemenu] Current Version: 1.9.9
+[script:scully_emotem] [scully_emotemenu] Latest Version: 1.9.9
+[script:scully_emotem] [scully_emotemenu] You are running the latest version.
+[38;5;154m[   script:mapmanager] Started map fivem-map-hipster
+[           resources] Started resource fivem-map-hipster
+[      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[38;5;73m[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://isolatedrp1-7omxje.users.cfx.re/
+[       script:ox_lib] An update is available for ox_lib (current version: 3.15.1)
+[       script:ox_lib] https://github.com/overextended/ox_lib/releases/tag/v3.16.2
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> refresh
+> txaReportResources
+[           resources] Scanning resources.
+[           resources] Found 0 new resources, and refreshed 0/105 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-main] -> Quitting: SIGHUP received

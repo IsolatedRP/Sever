@@ -1,0 +1,70 @@
+[
+  {
+    "name": "isolatedrp1",
+    "master": true,
+    "password_hash": "$2a$11$3OkYyzhyKTjAMi359Xa0u.UzLLZyPps3Yu6YClPf5nY3jWp3zuqfe",
+    "providers": {
+      "citizenfx": {
+        "id": "isolatedrp1",
+        "identifier": "fivem:13016020",
+        "data": {
+          "name": "isolatedrp1",
+          "profile": "https://forum.cfx.re/u/isolatedrp1",
+          "nameid": "https://forum.cfx.re/internal/user/13016020",
+          "picture": "https://avatars.discourse.org/v4/letter/i/7933a0/256.png"
+        }
+      },
+      "discord": {
+        "id": "1084037038413729864",
+        "identifier": "discord:1084037038413729864",
+        "data": {}
+      }
+    },
+    "permissions": []
+  },
+  {
+    "name": "Saber",
+    "master": false,
+    "password_hash": "$2a$11$xrMfMH9vlmXdD9ikiRASBegc7utqi46n/0z.AaymmFtW8TWNakoKa",
+    "providers": {
+      "citizenfx": {
+        "id": "Saber_Apex",
+        "identifier": "fivem:2352448",
+        "data": {}
+      },
+      "discord": {
+        "id": "881355893093064714",
+        "identifier": "discord:881355893093064714",
+        "data": {}
+      }
+    },
+    "permissions": [
+      "all_permissions"
+    ]
+  },
+  {
+    "name": "Jord",
+    "master": false,
+    "password_hash": "$2a$11$Vl4RA.MEV2H3RH6nCppci.jiRxJEfc3ckmxFTKaX/i03X8SW5ph82",
+    "providers": {
+      "citizenfx": {
+        "id": "Jords18",
+        "identifier": "fivem:41755",
+        "data": {
+          "name": "Jords18",
+          "profile": "https://forum.cfx.re/u/Jords18",
+          "nameid": "https://forum.cfx.re/internal/user/41755",
+          "picture": "https://forum.cfx.re/user_avatar/forum.cfx.re/jords18/256/866725_2.png"
+        }
+      },
+      "discord": {
+        "id": "209434408749367297",
+        "identifier": "discord:209434408749367297",
+        "data": {}
+      }
+    },
+    "permissions": [
+      "all_permissions"
+    ]
+  }
+]

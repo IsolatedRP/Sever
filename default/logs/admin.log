@@ -1,0 +1,27 @@
+
+================================================================
+======== txAdmin v7.0.0 atop fxserver 7330 Starting - 1/21/2024, 11:04:43 PM
+================================================================
+[23:06:10][isolatedrp1] created admins file
+[23:06:56][isolatedrp1] Changing global settings via setup stepper and started Deployer.
+[23:07:00][isolatedrp1] Setting recipe.
+[23:07:50][isolatedrp1] Running recipe.
+[23:11:42][isolatedrp1] Completed and committed server deploy.
+[23:13:15][isolatedrp1] Adding admin 'Saber'.
+[23:14:02][Saber] logged in from 68.10.133.196 via cfxre
+[23:14:12][Saber] Changing own password.
+[23:14:14][Saber] Changing own identifiers.
+[23:17:45][isolatedrp1] Adding admin 'Jord'.
+[23:19:42][Jord] logged in from 86.11.97.167 via cfxre
+[23:19:52][Jord] Changing own password.
+[23:20:28][Jord] Changing global settings.
+[23:20:41][Jord] Changing menu settings.
+[23:23:01][Jord] executed "RESTART SERVER"
+[23:25:59][isolatedrp1] executed "RESTART SERVER"
+[23:29:29][isolatedrp1] executed "refresh"
+[23:29:31][isolatedrp1] executed "ensure "scully_emotemenu""
+[23:29:33][isolatedrp1] executed "ensure "scully_emotemenu""
+[23:31:04][isolatedrp1] executed "refresh"
+[23:31:06][isolatedrp1] executed "ensure "ox_lib""
+[23:31:15][isolatedrp1] executed "RESTART SERVER"
+[23:32:15][isolatedrp1] executed "refresh"

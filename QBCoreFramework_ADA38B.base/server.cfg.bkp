@@ -1,0 +1,68 @@
+IsolatedRP Dev Server 
+
+## You CAN edit the following:
+endpoint_add_tcp "51.89.254.40:30120"
+endpoint_add_udp "51.89.254.40:30120"
+sv_maxclients 48
+set steam_webApiKey "140EE5FE9C68548887F01E23914244F0"
+sets tags "FiveM, QBCore, Roleplay, SemiSerious, Serious , 2024 , UK , British"
+
+## You MAY edit the following:
+sv_licenseKey "cfxk_JfC3ZyziinC01x9YpZW7_4OYEWE"
+sv_hostname "IsolatedRP - Dev Server"
+sets sv_projectName "IsolatedRP - Dev Server"
+sets sv_projectDesc "IsolatedRP - A semi-serious UK Roleplay community"
+sets locale "en-GB"
+load_server_icon mylogo.png
+set sv_enforceGameBuild 2944
+set mysql_connection_string "mysql://root@localhost/QBCoreFramework_ADA38B?charset=utf8mb4"
+
+# Voice config
+setr voice_useNativeAudio true
+setr voice_useSendingRangeOnly true
+setr voice_defaultCycle "GRAVE"
+setr voice_defaultVolume 0.3
+setr voice_enableRadioAnim 1
+setr voice_syncData 1
+
+# QBCore locale config
+setr qb_locale "en"
+
+# QBCore UseTarget
+setr UseTarget false
+
+# These resources will start by default.
+ensure mapmanager
+ensure chat
+ensure spawnmanager
+ensure sessionmanager
+ensure basic-gamemode
+ensure hardcap
+ensure baseevents
+ensure scully_emotemenu
+# QBCore & Extra stuff
+ensure qb-core
+ensure [qb]
+ensure [standalone]
+ensure [voice]
+ensure [defaultmaps]
+ensure [IsolatedRP]
+ensure ox_lib
+ensure scully_emotemenu
+## Permissions ##
+add_ace group.admin command allow # allow all commands
+add_principal identifier.fivem:13016020 group.admin #isolatedrp1
+add_principal identifier.discord:1084037038413729864 group.admin #isolatedrp1
+add_principal identifier.fivem:41755 group.god #Jords18
+add_principal identifier.fivem:7646483 group.god #Benni
+add_principal identifier.fivem:2352448 group.god #Saber
+# Resources
+add_ace resource.qb-core command allow # Allow qb-core to execute commands
+
+# Gods
+add_ace qbcore.god command allow # Allow all commands
+
+# Inheritance
+add_principal qbcore.god group.admin # Allow gods access to the main admin group used to get all default permissions
+add_principal qbcore.god qbcore.admin # Allow gods access to admin commands
+add_principal qbcore.admin qbcore.mod # Allow admins access to mod commands
